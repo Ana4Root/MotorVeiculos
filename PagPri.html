@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="stylePP.css">
+        <script src="main.js" defer></script>
+        <title>Página Principal</title>
+       
+    </head>
+    <body>
+        <header>
+            <h1 class="wrapper">Página Principal</h1>
+            
+        </header>
+        <main>
+            <button id="btncadca" class="button-85" role="button" type="button">Cadastrar Carro</button>
+            <button id="btncadmo" class="button-85" role="button" type="button">Cadastrar Motorista</button>
+            <b>
+            <input class="gfg" id="gfg" type="text" 
+                 placeholder="Pesquisar">
+            </b>
+            <table id="tbform" class="tabela">
+                <thead>
+                    <tr>
+                        <th>Data da Saida</th>
+                        <th>ID Carro</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                        <td>
+                            <button id="visualizar" class="btnVee" type="button"> 
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Visualizar
+                                </button>
+                            <button id="editar" class="btnVee" type="button"> 
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Editar
+                            </button>
+                            <button id="excluir" class="btnVee" type="button">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Excluir
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Data da Saida</th>
+                        <th>ID Carro</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                        <td>
+                            <button id="visualizar" class="btnVee" type="button"> 
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Visualizar
+                                </button>
+                            <button id="editar" class="btnVee" type="button"> 
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Editar
+                            </button>
+                            <button id="excluir" class="btnVee" type="button">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Excluir
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Data da Saida</th>
+                        <th>ID Carro</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                        <td>
+                            <button id="visualizar" class="btnVee" type="button"> 
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Visualizar
+                                </button>
+                            <button id="editar" class="btnVee" type="button"> 
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Editar
+                            </button>
+                            <button id="excluir" class="btnVee" type="button">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Excluir
+                            </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Data da Saida</th>
+                        <th>ID Carro</th>
+                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        
+                        <td>
+                            <button id="visualizar" class="btnVee" type="button"> 
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Visualizar
+                                </button>
+                            <button id="editar" class="btnVee" type="button"> 
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Editar
+                            </button>
+                            <button id="excluir" class="btnVee" type="button">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                Excluir
+                            </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="modal" id="modal">
+                <div class="modalcont">
+                    <header class="modalhe">
+                        <h2>Cadastro Carro</h2>
+                    </header>
+                    <form id="modalfc" class="modal-form">
+                        <input type="text" id="placa" class="modalfie" placeholder="Placa" required>
+                        <input type="text" id="marca" class="modalfie" placeholder="Marca" required>
+                        <input type="text" id="veiculo" class="modalfie" placeholder="Veiculo" required>
+                        <input type="text" id="tdo" class="modalfie" placeholder="Troca de Óleo" required>
+                    </form>
+                    <footer class="modalfo">
+                         <button id="modalca" class="lblca">Cancelar</button>              
+                         <button id= "salvarC" class="btns">Salvar</button>
+                    </footer>
+                </div>
+            </div>
+            <div class="modalm" id="modalm">
+                <div class="modalmcont">
+                    <header class="modalmhe">
+                        <h2>Cadastro Motorista</h2>
+                    </header>
+                    <form id="modalfm" class="modalm-form">
+                        <input type="text" id="cdm" class="modalmfie" placeholder="Cod do Motorista" required>
+                        <input type="text" id="nome" class="modalmfie" placeholder="Nome" required>
+                        <input type="text" id="telefone" class="modalmfie" placeholder="Telefone" required>
+                        <input type="text" id="cnh" class="modalmfie" placeholder="CNH" required>
+                    </form>
+                    <footer class="modalmfo">
+                         <button id="modalmca" class="lblca">Cancelar</button>              
+                         <button id="salvarM" class="btns">Salvar</button>
+                    </footer>
+                </div>
+            </div>
+        </main>
+        <footer>
+        </footer>
+        <script>
+            $(document).ready(function() {
+                $("#gfg").on("keyup", function() {
+                    var value = $(this).val().toLowerCase();
+                    $("#geeks tr").filter(function() {
+                        $(this).toggle($(this).text()
+                        .toLowerCase().indexOf(value) > -1)
+                    });
+                });
+            });
+        </script>
+    </body>
+</html>
