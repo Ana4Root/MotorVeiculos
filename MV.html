@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Motor Veiculos</title>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+        <header class="conteudo-cabecalho" id="conteudo-cabecalho">
+            <div class="texto-cabecalho">
+                <p class="icon">
+                    <i class="fa-solid fa-car-side"></i>
+                </p>
+                <h1 class="titulo">Motor Veículos</h1>
+                
+            </div>
+
+        </header>
+
+        <main>
+            <section class="cont">
+                <h2 class="subtitulo">Sobre Nós</h2>
+                <p><span class="letra">A</span>Motor Veículos, é a sua primeira opção quando se trata de alugar carros<br>
+                nós garantimos carros com total conforto e eficácia, seja para sua viagem a négocios<br>
+                lazer ou até mesmo para fazer um test driver. Nossos carros passam por revisão de 6 em 6 meses<br>
+                e uma limpeza completa a cada cliente, com a melhor qualidade.
+                Venha fazer parte da nossa história!! </p>
+                <a href="pp/PagPri.html" class="btn-pag estilo-pag">Acessar</a>
+            </section>
+            
+        </main>
+        <script src="https://kit.fontawesome.com/f2819a69dc.js" ></script>
+        <script>
+            window.addEventListener('scroll', () => {
+			const header = document.getElementById('conteudo-cabecalho');
+			header.style.opacity = '1' - window.pageYOffset / 721;
+            });
+        </script>
+    </body>
+</html>
